@@ -1,0 +1,101 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+header
+{
+    text-align: center;
+    padding: 2.2vh;
+    background-color: #13070C;
+    color: #EFF9F0;
+    font-weight: 800;
+    font-size: 3.5vh;
+}
+.container
+{
+    height: 80vh;
+    text-align: center;
+}
+.game
+{
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+}
+.rock
+{
+    background-image: url("rock.png");
+    
+}
+.paper
+{
+    background-image: url("paper.png");
+}
+.scissor
+{
+    background-image: url("scissors.png");
+}
+.btn
+{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 100%;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+}
+p{
+    font-size: 3vmin;
+    
+}
+.score
+{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+.box
+{
+    text-align: center;
+   height: 10vmin;
+   width: 10vmin;
+}
+.display
+{
+    height: 20vh;
+}
+.result
+{
+    height: 7vmin;
+    padding: 2vh;
+    background-color: #13070C;
+    border: none;
+    color: #EFF9F0;
+    font-weight: 500;
+    font-size: 2.7vmin;
+    border-radius: 2vh;
+    
+    
+}
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.new
+{height: 7vmin;
+    padding: 2vh;
+    background-color: #13070C;
+    border: none;
+    color: #EFF9F0;
+    font-weight: 500;
+    font-size: 2.7vmin;
+    border-radius: 2vh;
+    margin-top: 2vh;
+}
